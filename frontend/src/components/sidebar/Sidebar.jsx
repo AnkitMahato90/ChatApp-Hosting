@@ -14,7 +14,7 @@ const Sidebar = () => {
 	return (
 		<div className={`flex flex-col border-r-[5px] border-slate-500 p-4 md:w-80 ${isOpen ? 'w-full' : 'w-16'} transition-width duration-300`}>
 			<button className='block md:hidden mb-4' onClick={toggleSidebar}>
-				<GiHamburgerMenu size={24} />
+				<GiHamburgerMenu size={24} className='text-white'/>
 			</button>
 			{isOpen && (
 				<>
