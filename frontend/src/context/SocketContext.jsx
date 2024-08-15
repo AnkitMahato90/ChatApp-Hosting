@@ -15,7 +15,7 @@ export const SocketContextProvider = ({ children }) => {
 
 	useEffect(() =>{
 		if (authUser) {
-			const socket = io("http://localhost:6000",{  // use render hosted link
+			const socket = io("https://chatapp-hosting.onrender.com",{  // use render hosted link
                 query: {
                     userId:authUser._id,
                 },
