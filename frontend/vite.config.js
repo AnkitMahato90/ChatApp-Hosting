@@ -7,7 +7,7 @@ export default defineConfig({
 	server: {
 		proxy: {
 			"/api": {
-				target: "https://chat-app-hosting.vercel.app/",
+				target: "https://chatapp-hosting.onrender.com",
 			},
 		},
 	},
